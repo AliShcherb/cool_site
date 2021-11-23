@@ -1,5 +1,5 @@
 form(class="border-form p-2" onsubmit="return submitForm()" method="post" action=`/register?lang=${info.lang}`)
-    h5(class="text-center bg-form w-100 text-white font-weight-bold py-1") #{info.i8n[info.lang].form.head}
+    h5(class="text-center w-100 text-white font-weight-bold py-1" style=`background-color: ${info.config.color}`) #{info.i8n[info.lang].form.head}
     div(class="form-space d-flex align-content-around flex-wrap")
         h5(class="d-block") #{info.i8n[info.lang].form.name}
         input(id="name" name="name" class="form-control")

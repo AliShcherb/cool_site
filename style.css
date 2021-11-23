@@ -19,10 +19,6 @@
     border: 2px solid lightgreen ;
 }
 
-.bg-form{
-    background: #97102e;
-}
-
 .submit-form{
     height: 70px;
 }
@@ -35,7 +31,7 @@
 }
 
 .book-container{
-    background: #dbfffd;
+    background: #8eedd4;
 }
 
 .book{

@@ -1,6 +1,6 @@
 {
-  "site_name": "Класний сайт",
-  "domain": "www.mycoolsite.ua",
-  "color" : "#158f62",
-  "img": "./images/cool.jpg"
+  "site_name": "Дуже класний книжний сайт",
+  "domain": "www.coolbooksite.ua",
+  "color" : "#4ca890",
+  "img": "./images/books.jpg"
 }

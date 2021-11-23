@@ -1,8 +1,6 @@
-let http = require('http');
 let express = require('express');
 let mongoClient = require("mongodb").MongoClient;
-let ObjectId = require('mongodb').ObjectId;
-let url = "mongodb://localhost:27017/books";
+let url = "mongodb+srv://admin:admin@cluster0.mnitq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 let bodyParser = require('body-parser');
 let server = express();
 let config = require('./config.json');
@@ -17,14 +15,14 @@ server.use(express.static(__dirname));
 server.use(bodyParser.urlencoded({extended: true}));
 
 
-const PORT = 8888;
+const PORT = 5000;
 
 
 let db;
 
 mongoClient.connect(url, (err, client) => {
     if (err) return console.log(err);
-    db = client.db('books');
+    db = client.db('cool');
 
     server.listen(PORT);
     console.log('Server is running on port ' + PORT);
@@ -91,19 +89,19 @@ server.get('/applications', function (req, res) {
 
 const send = async (user, lang) => {
     let transporter = nodemailer.createTransport({
-        service: 'Gmail',
+        host: "smtp.gmail.com",
         port: 587,
         secure: false,
         auth: {
-            user: "bronksleon@gmail.com",
-            pass: "lolkekazaza"
+            user: "testweb281@gmail.com",
+            pass: "wqdqw123~"
         }
     });
     await transporter.sendMail({
-        from: 'bronksleon@gmail.com',
+        from: 'testweb281@gmail.com',
         to: user.email,
         subject: "Confirm email",
-        text: i8n[lang].confirm + "\n" + "http://localhost:8888/confirm/" + user.hash
+        text: i8n[lang].confirm + "\n" + "http://localhost:5000/confirm/" + user.hash
     });
 };
 

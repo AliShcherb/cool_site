@@ -1,10 +1,10 @@
 if info.url_path==="/"
-    img(src="images/cool.jpg" class="w-100 h-50")
     h1(style=`color: ${info.config.color}`) #{info.i8n[info.lang].main.enjoy}
     div(style="height:80px")
+    img(src=`${info.config.img}` class="w-100 h-50")
     h3 #{info.i8n[info.lang].main.welcome}
 else if info.url_path==="/books"
-    div(class="text-center")
+    div()
         h1(style=`color: ${info.config.color}` class="font-weight-bold") #{info.i8n[info.lang].books.book}
     div(id="books-container")
         booklist(:books="books" :local="local")

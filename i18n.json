@@ -1,8 +1,8 @@
 {
   "en": {
     "main": {
-      "enjoy": "Enjoy our cool site! if not, well, your loss!",
-      "welcome": "Welcome to our book catalogue!"
+      "enjoy": "Enjoy my very cool site. If someone doesn't enjoy it, I'll find you.",
+      "welcome": "Come to my tavern! Sit down if you find a free chair. Tell us about your adventures, Cossack."
     },
     "books": {
       "book": "BOOKS:",
@@ -22,21 +22,21 @@
     },
     "form": {
       "head": "APPLY",
-      "name": "Last and first name:",
+      "name": "Nickname:",
       "email": "Email:",
-      "comment": "Add comment:",
+      "comment": "Comment:",
       "submit": "Submit",
-      "name_error": "Last and first name must not be empty!",
+      "name_error": "Nickname field must not be empty!",
       "email_error": "Email must be properly formatted example@gmail.com!",
-      "email_empty": "Email must not be empty!",
-      "comment_empty": "Comment must not be empty!"
+      "email_empty": "Email field must not be empty!",
+      "comment_empty": "Comment field must not be empty!"
     },
     "confirm": "Confirm the registration! Press on link"
   },
   "uk": {
     "main": {
-      "enjoy": "Насолоджуйтесь нашим класним сайтом! Хто не хоче насолоджуватися - Вам же гірше!",
-      "welcome": "Ласкаво просимо до нашого книжкового каталогу!"
+      "enjoy": "Насолоджуйтесь моїм дуже класним сайтом. Якщо хтось не насолодиться, я вас знайду.",
+      "welcome": "Заходь в мою таверну! Сідай якщо знайдеш вільний стілець. Розкажи про свої пригоди, козаче."
     },
     "books": {
       "book": "КНИГИ:",
@@ -55,16 +55,16 @@
       "about": "ПРО НАС"
     },
     "form": {
-      "head": "ПОДАТИ ЗАЯВКУ",
-      "name": "Прізвище та ім'я:",
-      "email": "Пошта:",
+      "head": "ПОДАТИ ЗАЯВКУ НА РОЗМІЩЕННЯ КНИГИ",
+      "name": "Нікнейм:",
+      "email": "Електронна пошта:",
       "comment": "Додайте коментар:",
       "submit": "Підтвердити",
-      "name_error": "Поле з ім'ям та прізвищем не мають бути пустими!",
-      "email_error": "Пошта має бути формату example@gmail.com!",
-      "email_empty": "Пошта не має бути пустою!",
+      "name_error": "Поле з нікнеймом не може бути пустими!",
+      "email_error": "Електронна пошта має бути формату example@gmail.com!",
+      "email_empty": "Електронна пошта не має бути пустою!",
       "comment_empty": "Коментар не має бути пустим!"
     },
-    "confirm": "Підтвердити реєстрацію! Натисніть на посилання"
+    "confirm": "Підтвердіть свою заявку, просто перейдіть по посиланню "
   }
 }
