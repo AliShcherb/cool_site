@@ -13,7 +13,7 @@
       "desc": "Description:"
     },
     "about": {
-      "cool": "We are cool!"
+      "cool": "A very cool site hosted on my GiHub at https://github.com/yehorPo/cool-site. The site supports two languages ​​and also contains a view of the list of books stored in the MongoDb database. You can also view the admin interface at http://localhost:5000/applications"
     },
     "header": {
       "main": "MAIN",
@@ -21,7 +21,7 @@
       "about": "ABOUT US"
     },
     "form": {
-      "head": "APPLY",
+      "head": "SUBMIT AN APPLICATION FOR A BOOK",
       "name": "Nickname:",
       "email": "Email:",
       "comment": "Comment:",
@@ -47,7 +47,7 @@
       "desc": "Опис:"
     },
     "about": {
-      "cool": "Ми круті!"
+      "cool": "Дуже крутий сайт, розміщений в моєму GiHub по посиланню https://github.com/yehorPo/cool-site. Сайт підтримує дві мови, а також містить перегляд списку книг, які зберігаються в базі даних MongoDb. Також можна переглянути адмінський інтерфейс по посиланюю http://localhost:5000/applications"
     },
     "header": {
       "main": "ГОЛОВНА",

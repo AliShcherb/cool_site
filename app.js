@@ -51,6 +51,15 @@ server.get('/about', function (req, res) {
     res.render('./index.pug', {info: {config: config, url_path, lang: lang, i8n: i8n}});
 });
 
+server.post('/addbook', (req, res) => {
+    db.collection('books').insertOne(req.body).then(
+        (result, err) => {
+            if (err) return console.log(err);
+            res.redirect('/add');
+            
+        })
+});
+
 server.post('/register', function (req, res) {
     const lang = req.query.lang ? req.query.lang : "uk",
         url_path = req.url.split('?')[0];
@@ -86,7 +95,9 @@ server.get('/applications', function (req, res) {
     });
 
 });
-
+server.get('/add', function (req, res) {
+        res.render('./add.pug')
+});
 const send = async (user, lang) => {
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",

@@ -44,3 +44,7 @@
 .more:hover{
     color: #a6afff;
 }
+
+a{
+    text-decoration: none;
+}

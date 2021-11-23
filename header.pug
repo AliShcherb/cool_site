@@ -8,7 +8,8 @@ div(class="header d-flex flex-row text-white " style=`background-color: ${info.c
         a(class=`h4 mx-2 header-link ${info.url_path==="/"?"":"text-white-50"} hover` href=`/?lang=${info.lang}`) #{info.i8n[info.lang].header.main}
         a(class=`h4 mx-2 header-link ${info.url_path==="/books"?"":"text-white-50"} hover` href=`/books?lang=${info.lang}`) #{info.i8n[info.lang].header.books}
         a(class=`h4 mx-2 header-link ${info.url_path==="/about"?"":"text-white-50"} hover` href=`/about?lang=${info.lang}`) #{info.i8n[info.lang].header.about}
-    div(class="ml-auto my-auto")
-        div(class="mx-3")
+    div(style="width: 650px")
+    div(class="my-auto")
+        div(class="mx-3 float-left")
             a(class="h3 mx-2 header-link hover" href=`${info.url_path}?lang=en`) ENG
             a(class="h3 mx-2 header-link hover" href=`${info.url_path}?lang=uk`) UKR

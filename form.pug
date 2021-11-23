@@ -1,7 +1,7 @@
 form(class="border-form p-2" onsubmit="return submitForm()" method="post" action=`/register?lang=${info.lang}`)
     h5(class="text-center w-100 text-white font-weight-bold py-1" style=`background-color: ${info.config.color}`) #{info.i8n[info.lang].form.head}
     div(class="form-space d-flex align-content-around flex-wrap")
-        h5(class="d-block") #{info.i8n[info.lang].form.name}
+        h5(class="d-block ") #{info.i8n[info.lang].form.name}
         input(id="name" name="name" class="form-control")
     div(class="form-space d-flex align-content-around flex-wrap")
         h5(class="d-block ") #{info.i8n[info.lang].form.email}
@@ -9,8 +9,8 @@ form(class="border-form p-2" onsubmit="return submitForm()" method="post" action
     div(class="form-space d-flex align-content-around flex-wrap")
         h5(class="d-block") #{info.i8n[info.lang].form.comment}
         textarea(id="comment" name="comment" class="form-control h-50")
-    div(class="d-flex submit-form ")
-        button(type="submit" class="btn btn-primary align-self-center") #{info.i8n[info.lang].form.submit}
+    div(class="d-flex submit-form text-center")
+        button(type="submit" class="btn align-self-center" style=`background-color: ${info.config.color}`) #{info.i8n[info.lang].form.submit}
 script.
     let lang1 = !{JSON.stringify(info.lang)};
     let i8n1 = !{JSON.stringify(info.i8n)};
