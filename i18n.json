@@ -1,0 +1,70 @@
+{
+  "en": {
+    "main": {
+      "enjoy": "Enjoy our cool site! if not, well, your loss!",
+      "welcome": "Welcome to our book catalogue!"
+    },
+    "books": {
+      "book": "BOOKS:",
+      "name": "Title:",
+      "author": "Author:",
+      "more": "More...",
+      "year": "Year:",
+      "desc": "Description:"
+    },
+    "about": {
+      "cool": "We are cool!"
+    },
+    "header": {
+      "main": "MAIN",
+      "books": "BOOKS",
+      "about": "ABOUT US"
+    },
+    "form": {
+      "head": "APPLY",
+      "name": "Last and first name:",
+      "email": "Email:",
+      "comment": "Add comment:",
+      "submit": "Submit",
+      "name_error": "Last and first name must not be empty!",
+      "email_error": "Email must be properly formatted example@gmail.com!",
+      "email_empty": "Email must not be empty!",
+      "comment_empty": "Comment must not be empty!"
+    },
+    "confirm": "Confirm the registration! Press on link"
+  },
+  "uk": {
+    "main": {
+      "enjoy": "Насолоджуйтесь нашим класним сайтом! Хто не хоче насолоджуватися - Вам же гірше!",
+      "welcome": "Ласкаво просимо до нашого книжкового каталогу!"
+    },
+    "books": {
+      "book": "КНИГИ:",
+      "name": "Назва:",
+      "author": "Автор:",
+      "more": "Детальніше...",
+      "year": "Рік:",
+      "desc": "Опис:"
+    },
+    "about": {
+      "cool": "Ми круті!"
+    },
+    "header": {
+      "main": "ГОЛОВНА",
+      "books": "КНИГИ",
+      "about": "ПРО НАС"
+    },
+    "form": {
+      "head": "ПОДАТИ ЗАЯВКУ",
+      "name": "Прізвище та ім'я:",
+      "email": "Пошта:",
+      "comment": "Додайте коментар:",
+      "submit": "Підтвердити",
+      "name_error": "Поле з ім'ям та прізвищем не мають бути пустими!",
+      "email_error": "Пошта має бути формату example@gmail.com!",
+      "email_empty": "Пошта не має бути пустою!",
+      "comment_empty": "Коментар не має бути пустим!"
+    },
+    "confirm": "Підтвердити реєстрацію! Натисніть на посилання"
+  }
+}

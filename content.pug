@@ -1,0 +1,67 @@
+if info.url_path==="/"
+    img(src="images/cool.jpg" class="w-100 h-50")
+    h1(style=`color: ${info.config.color}`) #{info.i8n[info.lang].main.enjoy}
+    div(style="height:80px")
+    h3 #{info.i8n[info.lang].main.welcome}
+else if info.url_path==="/books"
+    div(class="text-center")
+        h1(style=`color: ${info.config.color}` class="font-weight-bold") #{info.i8n[info.lang].books.book}
+    div(id="books-container")
+        booklist(:books="books" :local="local")
+    script(src="https://unpkg.com/vue")
+    script.
+        let books=!{JSON.stringify(info.books)};
+        let lang=!{JSON.stringify(info.lang)};
+        let i8n=!{JSON.stringify(info.i8n)};
+        let local=i8n[lang].books;
+        Vue.component('book', {
+            props: ["book","local"],
+            data: function() {
+                    return {
+                        more_opened: false
+                    }
+            },
+            methods: {
+                open: function (event) {
+                    this.more_opened =!this.more_opened;
+                }
+            },
+            template: `<div class="book-container py-1 px-2 my-2">
+                            <div class="my-2">
+                            <span class="font-weight-bold book ">{{local.author}} </span>
+                            <span class="book">{{book.author}}</span>
+                            </div>
+                            <div class="my-2">
+                            <span class="font-weight-bold book">{{local.name}} </span>
+                            <span class="book">{{book.name}}</span>
+                            </div>
+
+                            <span class="more book" v-on:click="open">{{local.more}}</span>
+                            <template v-if="more_opened">
+                                <div class="my-2">
+                                <span class="font-weight-bold book ">{{local.year}} </span>
+                                <span class="book">{{book.year}}</span>
+                                </div>
+                                <div class="my-2">
+                                <span class="font-weight-bold book">{{local.desc}} </span>
+                                <span class="book">{{book.description}}</span>
+                                </div>
+                            </template>
+                        </div>`
+        });
+        Vue.component('booklist', {
+            props: ["books","local"],
+            template: `<div>
+                        <book v-for="book in books" :key="book.name" :book="book" :local="local"/>
+                    </div>`
+        });
+
+        new Vue({
+            el: "#books-container",
+            data: {
+                books: books,
+                local:local,
+            }
+        });
+else
+    div #{info.i8n[info.lang].about.cool}

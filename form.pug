@@ -1,0 +1,42 @@
+form(class="border-form p-2" onsubmit="return submitForm()" method="post" action=`/register?lang=${info.lang}`)
+    h5(class="text-center bg-form w-100 text-white font-weight-bold py-1") #{info.i8n[info.lang].form.head}
+    div(class="form-space d-flex align-content-around flex-wrap")
+        h5(class="d-block") #{info.i8n[info.lang].form.name}
+        input(id="name" name="name" class="form-control")
+    div(class="form-space d-flex align-content-around flex-wrap")
+        h5(class="d-block ") #{info.i8n[info.lang].form.email}
+        input(id="email" name="email" class="form-control")
+    div(class="form-space d-flex align-content-around flex-wrap")
+        h5(class="d-block") #{info.i8n[info.lang].form.comment}
+        textarea(id="comment" name="comment" class="form-control h-50")
+    div(class="d-flex submit-form ")
+        button(type="submit" class="btn btn-primary align-self-center") #{info.i8n[info.lang].form.submit}
+script.
+    let lang1 = !{JSON.stringify(info.lang)};
+    let i8n1 = !{JSON.stringify(info.i8n)};
+    let form_local = i8n1[lang1].form;
+    let re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    function submitForm() {
+        let name = document.getElementById("name");
+        let email = document.getElementById("email");
+        let comment = document.getElementById("comment");
+        if (!name.value) {
+            alert(form_local.name_error);
+            return false;
+        }
+        if (!email.value) {
+            alert(form_local.email_empty);
+            return false;
+        }
+        if (!re.test(email.value)) {
+            alert(form_local.email_error);
+            return false;
+        }
+        if (!comment.value) {
+            alert(form_local.comment_empty);
+            return false;
+        }
+        alert("Підтвердіть реєстрацію на пошті")
+        return true;
+
+    }

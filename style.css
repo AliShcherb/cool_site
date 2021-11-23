@@ -1,0 +1,50 @@
+.header2{
+    height: 80px;
+}
+.header{
+    height: 90px;
+}
+.form-space{
+    height: 150px;
+}
+.flag{
+    height: 20px;
+    border: 1px solid aliceblue;
+}
+.header-link{
+    letter-spacing: 0;
+}
+
+.border-form{
+    border: 2px solid lightgreen ;
+}
+
+.bg-form{
+    background: #97102e;
+}
+
+.submit-form{
+    height: 70px;
+}
+.hover:hover{
+    color: white !important;
+    text-decoration: none;
+}
+.hover{
+    color:white;
+}
+
+.book-container{
+    background: #dbfffd;
+}
+
+.book{
+    font-size: 18px;
+}
+
+.more{
+    color: #2d79fc;
+}
+.more:hover{
+    color: #a6afff;
+}
