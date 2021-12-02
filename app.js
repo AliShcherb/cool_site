@@ -104,12 +104,12 @@ const send = async (user, lang) => {
         port: 587,
         secure: false,
         auth: {
-            user: "testweb281@gmail.com",
-            pass: "wqdqw123~"
+            user: 'sushko.liza10@gmail.com',
+            pass: 'alina_17112001'
         }
     });
     await transporter.sendMail({
-        from: 'testweb281@gmail.com',
+        from: 'sushko.liza10@gmail.com',
         to: user.email,
         subject: "Confirm email",
         text: i8n[lang].confirm + "\n" + "http://localhost:5000/confirm/" + user.hash
