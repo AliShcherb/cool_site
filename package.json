@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yehorPo/cool-site.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yehorPo/cool-site/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/yehorPo/cool-site#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.19.0",
     "crypto": "^1.0.1",

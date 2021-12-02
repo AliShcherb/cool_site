@@ -1,11 +1,11 @@
 {
   "en": {
     "main": {
-      "enjoy": "Enjoy my very cool site. If someone doesn't enjoy it, I'll find you.",
-      "welcome": "Come to my tavern! Sit down if you find a free chair. Tell us about your adventures, Cossack."
+      "enjoy": "Enjoy my site with cool books",
+      "welcome": "Welcome"
     },
     "books": {
-      "book": "BOOKS:",
+      "book": "Books:",
       "name": "Title:",
       "author": "Author:",
       "more": "More...",
@@ -13,33 +13,33 @@
       "desc": "Description:"
     },
     "about": {
-      "cool": "A very cool site hosted on my GiHub at https://github.com/yehorPo/cool-site. The site supports two languages ​​and also contains a view of the list of books stored in the MongoDb database. You can also view the admin interface at http://localhost:5000/applications"
+      "cool": "It is site with interesting books, where you can read them"
     },
     "header": {
-      "main": "MAIN",
-      "books": "BOOKS",
-      "about": "ABOUT US"
+      "main": "Main",
+      "books": "Books",
+      "about": "About us"
     },
     "form": {
-      "head": "SUBMIT AN APPLICATION FOR A BOOK",
-      "name": "Nickname:",
+      "head": "Submit an application",
+      "name": "Name:",
       "email": "Email:",
-      "comment": "Comment:",
+      "comment": "Text:",
       "submit": "Submit",
-      "name_error": "Nickname field must not be empty!",
-      "email_error": "Email must be properly formatted example@gmail.com!",
-      "email_empty": "Email field must not be empty!",
-      "comment_empty": "Comment field must not be empty!"
+      "name_error": "Name field can`t be empty!",
+      "email_error": "Email must be like example@gmail.com!",
+      "email_empty": "Email field can`t be empty!",
+      "comment_empty": "Comment field can`t be empty!"
     },
-    "confirm": "Confirm the registration! Press on link"
+    "confirm": "To confirm the registration press the link"
   },
   "uk": {
     "main": {
-      "enjoy": "Насолоджуйтесь моїм дуже класним сайтом. Якщо хтось не насолодиться, я вас знайду.",
-      "welcome": "Заходь в мою таверну! Сідай якщо знайдеш вільний стілець. Розкажи про свої пригоди, козаче."
+      "enjoy": "Насолоджуйтесь сайтом з крутими книгами",
+      "welcome": "Вітаю!"
     },
     "books": {
-      "book": "КНИГИ:",
+      "book": "Книги:",
       "name": "Назва:",
       "author": "Автор:",
       "more": "Детальніше...",
@@ -47,24 +47,24 @@
       "desc": "Опис:"
     },
     "about": {
-      "cool": "Дуже крутий сайт, розміщений в моєму GiHub по посиланню https://github.com/yehorPo/cool-site. Сайт підтримує дві мови, а також містить перегляд списку книг, які зберігаються в базі даних MongoDb. Також можна переглянути адмінський інтерфейс по посиланюю http://localhost:5000/applications"
+      "cool": "Це сайт з цікавими книгами, де ви можете їх почитати"
     },
     "header": {
-      "main": "ГОЛОВНА",
-      "books": "КНИГИ",
-      "about": "ПРО НАС"
+      "main": "Головна",
+      "books": "Книги",
+      "about": "Про нас"
     },
     "form": {
-      "head": "ПОДАТИ ЗАЯВКУ НА РОЗМІЩЕННЯ КНИГИ",
-      "name": "Нікнейм:",
+      "head": "Подати заявку",
+      "name": "Ім'я:",
       "email": "Електронна пошта:",
-      "comment": "Додайте коментар:",
+      "comment": "Текст:",
       "submit": "Підтвердити",
-      "name_error": "Поле з нікнеймом не може бути пустими!",
+      "name_error": "Поле з нікнеймом повинне бути заповненим!",
       "email_error": "Електронна пошта має бути формату example@gmail.com!",
-      "email_empty": "Електронна пошта не має бути пустою!",
-      "comment_empty": "Коментар не має бути пустим!"
+      "email_empty": "Електронна пошта плвинна бути заповлена!",
+      "comment_empty": "Коментар має бути заповленим!"
     },
-    "confirm": "Підтвердіть свою заявку, просто перейдіть по посиланню "
+    "confirm": "Щоб підтвердити заявку перейдіть за посиланням"
   }
 }

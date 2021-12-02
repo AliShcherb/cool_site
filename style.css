@@ -16,7 +16,7 @@
 }
 
 .border-form{
-    border: 2px solid lightgreen ;
+    border: 5px solid #6b0a8b ;
 }
 
 .submit-form{
@@ -31,7 +31,8 @@
 }
 
 .book-container{
-    background: #8eedd4;
+    background: #ffffff;
+    border: 1px solid #6b0a8b;
 }
 
 .book{
@@ -39,12 +40,19 @@
 }
 
 .more{
-    color: #2d79fc;
+    color: #c500fc;
 }
 .more:hover{
-    color: #a6afff;
+    color: rgba(197, 0, 252, 0.6);
 }
 
 a{
     text-decoration: none;
+    margin-right: 5px;
+}
+.btn{
+    color:white;
+}
+.h3{
+    margin-right: 5px;
 }

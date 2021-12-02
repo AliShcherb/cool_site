@@ -1,6 +1,6 @@
 let express = require('express');
 let mongoClient = require("mongodb").MongoClient;
-let url = "mongodb+srv://admin:admin@cluster0.mnitq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+let url = "mongodb+srv://root:root@cluster0.iggjy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 let bodyParser = require('body-parser');
 let server = express();
 let config = require('./config.json');

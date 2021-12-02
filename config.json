@@ -1,6 +1,6 @@
 {
-  "site_name": "Дуже класний книжний сайт",
-  "domain": "www.coolbooksite.ua",
-  "color" : "#4ca890",
-  "img": "./images/books.jpg"
+  "site_name": "Ваші улюблені книги",
+  "domain": "www.coolbooks.ua",
+  "color" : "#6b0a8b",
+  "img": "./images/img.png"
 }
