@@ -5,9 +5,8 @@ div(class="header d-flex flex-row text-white " style=`background-color: ${info.c
     div(class="mx-1 my-auto")
         h2 |
     div(class="mx-2 my-auto")
-        a(class=`h4 mx-2 header-link ${info.url_path==="/"?"":"text-white-50"} hover` href=`/?lang=${info.lang}`) #{info.i8n[info.lang].header.main}
-        a(class=`h4 mx-2 header-link ${info.url_path==="/books"?"":"text-white-50"} hover` href=`/books?lang=${info.lang}`) #{info.i8n[info.lang].header.books}
-        a(class=`h4 mx-2 header-link ${info.url_path==="/about"?"":"text-white-50"} hover` href=`/about?lang=${info.lang}`) #{info.i8n[info.lang].header.about}
+        each element, index in info.i8n[info.lang].header
+            a(class=`h4 mx-2 header-link ${info.url_path === "/" + index ? "" : "text-white-50"} hover` href=`/${index}?lang=${info.lang}`) #{element}
     div(style="width: 650px")
     div(class="my-auto")
         div(class="mx-3 float-left")

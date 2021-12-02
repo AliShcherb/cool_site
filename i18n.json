@@ -16,7 +16,7 @@
       "cool": "It is site with interesting books, where you can read them"
     },
     "header": {
-      "main": "Main",
+      "": "Main",
       "books": "Books",
       "about": "About us"
     },
@@ -50,7 +50,7 @@
       "cool": "Це сайт з цікавими книгами, де ви можете їх почитати"
     },
     "header": {
-      "main": "Головна",
+      "": "Головна",
       "books": "Книги",
       "about": "Про нас"
     },
@@ -67,4 +67,5 @@
     },
     "confirm": "Щоб підтвердити заявку перейдіть за посиланням"
   }
+
 }

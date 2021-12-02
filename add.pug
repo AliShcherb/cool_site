@@ -1,26 +1,25 @@
 html
-    title Admin page
+    title Admin
     link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous")
     body
         div(class='container text-center')
-            h3(class='my-5 badge' style="background-color: #6b0a8b; font-size : 2.5rem") Add book
+            h3(class='my-5 badge' style="background-color: #6b0a8b; font-size : 2.5rem") Додати книгу
             br
-            a(href='/applications' class='mx-auto badge' style="background-color: #6b0a8b; font-size: 1.25rem") Applications
+            a(href='/applications' class='mx-auto badge' style="background-color: #6b0a8b; font-size: 1.25rem") Заявки
             form(action="/addbook" class="mx-auto " method="POST")
                 div(class="w-50 mx-auto")
                     br
-                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Name
+                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Назва
                     input(name="name" class="form-control")
                 div(class="w-50 mx-auto")
                     br
-                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Author
+                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Автор
                     input(type="text" name="author" class="form-control")
                 div(class="w-50 mx-auto")
                     br
-                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Year
+                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Рік
                     input(type="text" name="year" class="form-control")
                 div(class="w-50 mx-auto")
                     br
-                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Description
-                    input(type="text" name="description" class="form-control")
-                button(type="submit" class="btn my-5 mx-3 text-white" style="background-color: #6b0a8b") Submit
+                    p(class='badge' style="background-color: #6b0a8b; font-size : 1.2rem") Опис
+                button(type="submit" class="btn my-5 mx-3 text-white" style="background-color: #6b0a8b") Підтвердити
